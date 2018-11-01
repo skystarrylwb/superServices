@@ -1,0 +1,77 @@
+/*重置样式*/
+header,footer,main,div,ul,li,p,h1,h2,h3,h4{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: url(/images/bg.png) no-repeat;
+    background-size: 100% 1000px;
+}
+.big{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 390px;
+    height: 334px;
+    margin:0 auto;
+    margin-top:15%;
+    background:url(/images/form-bg.png) no-repeat center bottom;
+}
+.main h3{
+    font-size:28px;
+    color:white;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+}
+.main form{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-top:100px;
+    color:#333;
+}
+.main form div{
+    margin-top:20px;
+}
+.main form .user label{
+    font-size: 16px;
+    margin-left:42px;
+}
+.main form .user input{
+    height: 32px;
+    width: 240px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    margin-left: 12px;
+}
+.main form .userl label{
+    margin-left:52px;
+}
+.main form .userl input{
+    margin-left:18px;
+}
+.main form .logoin input{
+    height: 32px;
+    width: 64px;
+    font-size: 16px;
+    border: 1px solid #0c4c57;
+    background: #54a4d7;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+.main form .logoin input:first-child{
+    margin-left: 52px;
+}
+.main form .logoin input:last-child{
+    margin-left: 12px;
+}
+.main form .form_p{
+    text-align: right;
+    width: 346px;
+    margin-top: 32px;
+}
+.main form .form_p a{
+    color:red;
+}
